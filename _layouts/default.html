@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <title>Meditation: A journey inwards</title>
 <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
-<link href="css/grid.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimizer" content="240">
 <meta name="viewport" content="width=device-width;initial-scale=1">
 </head>
-
+<!--default.html has the info that is the same on every page-->
 <body>
 
     <header>
@@ -17,10 +17,12 @@
         <a href="about.html">lidfjljd</a>
         
         </nav>
+        		
+     
         
-        <div id="icons_box">
+        		<div id="icons_box">
            		
-                <div class="icon_container">
+                	<div class="icon_container">
                     
                     
                     <a href="http://www.facebook.com"><img src="../img/facebook.png"  alt="facebook"></a>
@@ -30,13 +32,23 @@
                     <a href="http://www.twitter.com"><img src="../img/twitter.png"  alt="twitter"></a>
                     
                     
-            	</div><!--closing icons box-->
+       
+         			</div><!--icon_container-->
+     
+     			</div><!--closing icons_box-->
+                
+               <div class="logo">
+                
+                </div><!--closing logo--> 
             
-         </div><!--icon_container-->
-    
-     </div><!--closing stripe-->
+     
     </header>
-    {{content}} <!--jeckyll takes this--> 
+    
+    <div class="content">
+    {{content}} <!--jeckyll tkes everything from index and puts it here("put the content from index here")--> 
+    </div>
+    <!--the combination of default.html and index.html are saved in a html doc in the _site folder under index)--> 
+    
     
     <footer>
     jhfgjhg

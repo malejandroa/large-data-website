@@ -60,16 +60,29 @@ body {
 	background-image: url(../img/subtle_white_feathers.png); 
 	background-attachment:fixed;
 	background-position:center;
-	
 	}
 
-
+h3{
+	
+	color: #333;
+	
+	}
+p{
+	 margin-top:0;
+    margin-bottom:0
+	
+	}
+	
 .religions{
-	background-image: url(../img/subtle_white_feathers.png);
+	color: #333;
+	font-size:1.7em;
+	padding:.5em;
 	font-family: 'WebServeroffRegular';
-	
 	}
-
+.content{
+	max-width: 1200px;
+	margin: 0 auto;
+	}
 
 .flex-image{ /* use this to make any image responsive*/
 	
@@ -85,5 +98,34 @@ body {
 	padding-top:.8em;
 	box-shadow: 2px 2px 2px #888888;
 	border-bottom:1px #0099CC solid;
-	width: 100%
+	
 	}
+	
+.picture{                /* index main picture*/
+	
+		
+		height:12em;
+		background-repeat:no-repeat;
+		border: 0px #666666 solid;
+		background-size: cover;/*for when the image in the div doesnt work resposively*/
+		background-position:center center;  /*how the image is going to act as scaled*/
+		
+		}
+.picture-home {
+	background-image:url(../img/image_home.gif);/*to change the image in each page*/
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.logo{                /* index main picture*/
+	
+		width:100%;
+		max-width: 1200px;  /* gives a max width when stretched */
+		height:10em;
+		background-repeat:no-repeat;
+		border: 1px #666666 solid;
+		background-size: contain;/*for when the image in the div doesnt work resposively*/
+		background-position:left bottom;  /*how the image is going to act as scaled x,y*/
+		background-image:url(../img/logo.png.gif);
+		margin: 0 auto;
+		}	
+			
