@@ -64,16 +64,16 @@ body {
 
 h3{
 	
-	color: #333;
+	color: #45585A;
 	
 	
 	}
 	
 	
-h1{
+h4{
 	
 	color: #333;
-	font-family: 'WebServeroffRegular';
+	font-family: 'WebServeroffItalic';
 	
 	}
 p{
@@ -87,6 +87,7 @@ p{
 	font-size:1.7em;
 	padding:.5em;
 	font-family: 'WebServeroffRegular';
+	margin-top:1.3em;
 	}
 .content{
 	max-width: 1200px;
@@ -131,10 +132,84 @@ p{
 		max-width: 1200px;  /* gives a max width when stretched */
 		height:10em;
 		background-repeat:no-repeat;
-		border: 1px #666666 solid;
+		border: 0px #666666 solid;
 		background-size: contain;/*for when the image in the div doesnt work resposively*/
 		background-position:left bottom;  /*how the image is going to act as scaled x,y*/
-		background-image:url(../img/logo.png.gif);
+		background-image: url(../img/logo.png.gif);
 		margin: 0 auto;
 		}	
+			
+.picture-about {
+	background-image:url(../img/about_image.gif);/*to change the image in each page*/
+	box-shadow: 2px 2px 2px #888888;
+}
+
+nav{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+	}
+	
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	border:0px #99FF33 solid;
+	text-align:right;
+}
+
+nav li{
+	display:inline;
+	border:0px #99FF33 solid;
+	
+	
+	}
+	
+nav a{
+		display:inline-block;
+		width:auto;
+		padding:.5em;
+		background-color:transparent ;
+		font-family:'WebServeroffItalic';
+		color: #45585A;
+		text-decoration:none;
+		text-align:right;
+		font-size:1.5em;
+		
+		
+		}
+		
+a:hover{ 
+  color: #86C5C9;
+}
+
+.home_img{
+		width:100%;
+
+		border: 1px #CCCCCC  thin;
+		
+		}
+	
+footer{
+	height:3em;
+	max-width:1200px;
+	font-size:1rem;
+	background-color: transparent;
+	text-align:right;
+	padding-right:1em;
+	padding-top:.3em;
+	padding-bottom:.3em;
+	font-family: 'WebServeroffRegular';
+	color:#333;
+	margin-top:2em;
+	border-top:1px dotted #0099CC; 
+	margin: 0 auto;
+}
+
+.link{
+	
+	color: #F60;
+	}
+
+
 			
