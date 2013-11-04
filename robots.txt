@@ -1,0 +1,12 @@
+# http://robotstxt.org
+# this file must be saved in the root of your domain 
+# In the same location as your homepage index.html
+# http://domain.com/robots.txt
+
+# you can use your robot.xtm to preent goolgle from showing things 
+# user-agent: *
+# disallow: /img-->
+
+------------------------------------------------------------------------
+
+Sitemap: https://github.com/malejandroa/large-data-website/blob/gh-pages/sitemap.xml  <!--only content to use-->
