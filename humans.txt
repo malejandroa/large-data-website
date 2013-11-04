@@ -1,0 +1,30 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Alejandro Andrade <alejandroandrade81@hotmail.com>
+Site: http://alejandroandrade.daportfolio.com
+GitHub: https://github.com/malejandroa
+Twitter: @malejandroa
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Wikipedia - http://en.wikipedia.org/wiki/Meditation
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Git + GitHub
+- Markdown
+- Adobe Illustrator & Photoshop Graphics 
+- Jekyll
+
+## Hosting
+
+- 

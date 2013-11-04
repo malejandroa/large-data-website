@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!--its an sitemap.xml file(http://www.sitemaps.org/protocol.html), it goes in the same place as the home page index.html, at the root of your domain: domin.com/sitemap.xml-->
+   <url>
+   <!--loc REQUIRED-->
+
+      <loc>http://www.santi.com/</loc>
+
+      <lastmod>2013-10-31</lastmod>
+	  <!--<lastmod> last modified date OPTIONAL -->
+
+      <changefreq>monthly</changefreq>
+	    <!--<changefreq> last modified date OPTIONAL never, yarly, monthly, weekly, daily, hourly, always -- change frequency  -->
+
+      <priority>1.0</priority>
+	    <!--<priority> how important is the page in the website(home page in this case 0.1 lowes. 1.0 highest -->
+
+   </url>
+   
+   <url>
+
+      <loc>http://www.santi.com/about.html</loc><!--<priority> carnivores page, you do this fo every page -->
+
+      <lastmod>2013-10-31</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
