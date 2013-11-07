@@ -61,28 +61,40 @@ body {
 	background-attachment:fixed;
 	background-position:center;
 	}
-
-h3{
-	
-	color: #45585A;
-	
-	
-	}
-	
 h1{
 	
 	color: #333;
-	font-family: 'WebServeroffItalic';
+	font-family: 'Signika Negative';
+	font-weight: 400; 
+	font-style: normal;
 	font-size: 1.3em;
 	
 	}
 	
+h2{
+	
+	color: #333;
+	font-family: 'Signika Negative';
+	font-weight: 400; 
+	font-style: normal;;
+	}
+
+
+h3{
+	
+	color: #333;
+	font-family: 'Signika Negative';
+	font-weight: 500; 
+	font-style:  italic;
+	
+	}
 	
 h4{
 	
-	color: #333;
-	font-family: 'WebServeroffItalic';
-	
+	ccolor: #333;
+	font-family: 'Signika Negative';
+	font-weight: 200; 
+	font-style: normal;
 	}
 p{
 	margin-top:0;
@@ -92,10 +104,13 @@ p{
 	
 .religions{
 	color: #333;
-	font-size:1.7em;
+	font-size:1.3em;
 	padding:.5em;
-	font-family: 'WebServeroffRegular';
-	margin-top:1.3em;
+	font-family: 'Signika Negative';
+	font-weight: 200; 
+	font-style: normal;
+	margin-top:1em;
+	
 	}
 .content{
 	max-width: 1200px;
@@ -151,6 +166,18 @@ p{
 	background-image:url(../img/about_image.gif);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
+
+.picture-paths{
+	background-image: url(../img/zen.jpeg);/*to change the image in each page*/
+	box-shadow: 2px 2px 2px #888888;
+}
+	
+.picture-further_studies{
+	background-image: url(../img/zen__4.jpg);/*to change the image in each page*/
+	box-shadow: 2px 2px 2px #888888;
+}
+	
+	
 
 nav{
 	max-width: 1200px;
