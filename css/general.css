@@ -160,6 +160,7 @@ p{
 		background-position:left bottom;  /*how the image is going to act as scaled x,y*/
 		background-image: url(../img/santi__meditation.gif);
 		margin: 0 auto;
+		display:block;
 		}	
 			
 .picture-about {
