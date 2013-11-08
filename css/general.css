@@ -137,13 +137,13 @@ p{
 .picture{                /* index main picture*/
 	
 		
-		height:12em;
-		background-repeat:no-repeat;
-		border: 0px #666666 solid;
-		background-size: cover;/*for when the image in the div doesnt work resposively*/
-		background-position:center center;  /*how the image is going to act as scaled*/
+height:12em;
+background-repeat:no-repeat;
+border: 0px #666666 solid;
+background-size: cover;/*for when the image in the div doesnt work resposively*/
+background-position:center center;  /*how the image is going to act as scaled*/
 		
-		}
+}
 .picture-home {
 	background-image:url(../img/image_home.gif);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
@@ -161,7 +161,7 @@ p{
 		background-image: url(../img/santi__meditation.gif);
 		margin: 0 auto;
 		display:block;
-		}	
+}	
 			
 .picture-about {
 	background-image:url(../img/about_image.gif);/*to change the image in each page*/
@@ -247,5 +247,35 @@ footer{
 	color: #F60;
 	}
 
-
+.skiplinks{
+	font-family: 'WebServeroffItalic';
+	list-style-type:none;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	z-index: 3000;
+	}
+	
+	.skiplinks a,              
+	.skiplinks a:link,
+	.skiplinks a:visited{
+		padding: 0.75em 1em;
+		position:absolute;
+		top:-10em;
+		background-color:#000;
+		color: #FFF;
+		text-decoration:none;
+	}
+	
+	skiplinks:hover{ 
+  	color: #86C5C9;
+}
+.skiplinks a:focus{
+	top:0;
+	
+	}
 			
+/***************************************************************************************
+			Skiplinks
+***************************************************************************************/
