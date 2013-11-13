@@ -65,7 +65,7 @@ h1{
 	
 	color: #333;
 	font-family: 'Signika Negative';
-	font-weight: 400; 
+	font-weight: 500; 
 	font-style: italic;
 	font-size: 1.3em;
 	
@@ -96,6 +96,7 @@ h4{
 	font-weight: 200; 
 	font-style: normal;
 	}
+
 p{
 	margin-top:0;
     margin-bottom:0
