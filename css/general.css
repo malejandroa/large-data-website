@@ -162,12 +162,12 @@ background-position:center center;  /*how the image is going to act as scaled*/
 
 
 .picture-home {
-	background-image: url(img/zen__2.jpg);/*to change the image in each page*/
+	background-image: url(../img/image_home.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 			
 .picture-about {
-	background-image:url(img/about_image.jpg);/*to change the image in each page*/
+	background-image: url(../img/about_image.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 
