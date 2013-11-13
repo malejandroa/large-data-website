@@ -145,10 +145,6 @@ background-size: cover;/*for when the image in the div doesnt work resposively*/
 background-position:center center;  /*how the image is going to act as scaled*/
 		
 }
-.picture-home {
-	background-image:url(../img/image_home.jpg);/*to change the image in each page*/
-	box-shadow: 2px 2px 2px #888888;
-}
 
 .logo{                /* index main picture*/
 	
@@ -163,6 +159,12 @@ background-position:center center;  /*how the image is going to act as scaled*/
 		margin: 0 auto;
 		display:block;
 }	
+
+
+.picture-home {
+	background-image: url(img/zen__2.jpg);/*to change the image in each page*/
+	box-shadow: 2px 2px 2px #888888;
+}
 			
 .picture-about {
 	background-image:url(img/about_image.jpg);/*to change the image in each page*/
@@ -263,10 +265,10 @@ footer{
 	z-index: 3000;
 	}
 	
-	.skiplinks a,              
-	.skiplinks a:link,
+.skiplinks a,              
+.skiplinks a:link,
 	.skiplinks a:visited{
-		padding: 0.75em 1em;
+	padding: 0.75em 1em;
 		position:absolute;
 		top:-10em;
 		background-color:#000;
@@ -274,7 +276,7 @@ footer{
 		text-decoration:none;
 	}
 	
-	skiplinks:hover{ 
+skiplinks:hover{ 
   	color: #86C5C9;
 }
 .skiplinks a:focus{
