@@ -170,7 +170,7 @@ background-position:center center;  /*how the image is going to act as scaled*/
 }
 
 .picture-paths{
-	background-image: url(../img/zen.jpeg);/*to change the image in each page*/
+	background-image: url(../img/zen__5.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 	
@@ -246,7 +246,12 @@ footer{
 .link{
 	
 	color: #F60;
+	font-family: 'WebServeroffItalic';
 	}
+	
+	/***************************************************************************************
+			Skiplinks
+***************************************************************************************/
 
 .skiplinks{
 	font-family: 'WebServeroffItalic';
@@ -277,6 +282,20 @@ footer{
 	
 	}
 			
+
+
+
 /***************************************************************************************
-			Skiplinks
+			Fallbacks
 ***************************************************************************************/
+.no-rgba figcaption{
+	background-color: #000;
+	
+
+	}
+	
+.no-js figure{
+	
+	border:1px solid #F00;
+	
+	}	
