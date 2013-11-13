@@ -131,7 +131,7 @@ p{
 	padding-top:.8em;
 	box-shadow: 2px 2px 2px #888888;
 	border-bottom:1px #0099CC solid;
-	
+	clear:both;
 	}
 	
 .picture{                /* index main picture*/
