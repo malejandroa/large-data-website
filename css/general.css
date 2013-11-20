@@ -155,7 +155,7 @@ background-position:center center;  /*how the image is going to act as scaled*/
 		border: 0px #666666 solid;
 		background-size: contain;/*for when the image in the div doesnt work resposively*/
 		background-position:left bottom;  /*how the image is going to act as scaled x,y*/
-		background-image: url(img/santi__meditation.gif);
+		background-image: url(../img/santi__meditation.gif);
 		margin: 0 auto;
 		display:block;
 }	
@@ -172,12 +172,12 @@ background-position:center center;  /*how the image is going to act as scaled*/
 }
 
 .picture-paths{
-	background-image: url(img/zen__5.jpg);/*to change the image in each page*/
+	background-image: url(../img/zen__5.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 	
 .picture-further_studies{
-	background-image: url(img/zen__4.jpg);/*to change the image in each page*/
+	background-image: url(../img/zen__4.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 	
