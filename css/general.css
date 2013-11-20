@@ -131,18 +131,18 @@ p{
 	padding-right:1em;
 	padding-top:.8em;
 	box-shadow: 2px 2px 2px #888888;
-	border-bottom:1px #0099CC solid;
+	border-bottom:0px #0099CC solid;
 	
 	}
 	
 .picture{                /* index main picture*/
 	
 		
-height:12em;
-background-repeat:no-repeat;
-border: 0px #666666 solid;
-background-size: cover;/*for when the image in the div doesnt work resposively*/
-background-position:center center;  /*how the image is going to act as scaled*/
+	height:12em;
+	background-repeat:no-repeat;
+	border: 0px #666666 solid;
+	background-size: cover;/*for when the image in the div doesnt work resposively*/
+	background-position:center center;  /*how the image is going to act as scaled*/
 		
 }
 
