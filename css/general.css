@@ -60,6 +60,8 @@ body {
 	background-image: url(../img/subtle_white_feathers.png); 
 	background-attachment:fixed;
 	background-position:center;
+	
+	
 	}
 h1{
 	
@@ -80,9 +82,8 @@ h2{
 	}
 
 
-h3{
-	
-	color: #333;
+h3{ 
+	color: #09C  ;
 	font-family: 'Signika Negative';
 	font-weight: 500; 
 	font-style:  italic;
@@ -99,14 +100,19 @@ h4{
 
 p{
 	margin-top:0;
-    margin-bottom:0
-	
+    margin-bottom:0;
+	paddig:10em;
+	}
+
+.paths{
+	padding-left:2em;
+	padding-right:2em;
 	}
 	
 .religions{
 	color: #333;
 	font-size:1.3em;
-	padding:.5em;
+	padding:2em;
 	font-family: 'Signika Negative';
 	font-weight: 200; 
 	font-style: normal;
@@ -224,7 +230,6 @@ a:hover{
 
 .home_img{
 		width:100%;
-
 		border: 1px #CCCCCC  thin;
 		
 		}
@@ -249,6 +254,12 @@ footer{
 	
 	color: #F60;
 	font-family: 'WebServeroffItalic';
+	}
+	
+.404{
+	
+	font-family:'WebServeroffItalic'
+	
 	}
 	
 	/***************************************************************************************
