@@ -11,8 +11,7 @@
     src: url('../fonts/WebServerOff/Web_Serveroff-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/WebServerOff/Web_Serveroff-webfont.woff') format('woff'),
          url('../fonts/WebServerOff/Web_Serveroff-webfont.ttf') format('truetype'),
-         url('../fonts/WebServerOff/Web_Serveroff-webfont.svg#WebServeroffRegular') format('svg');
-    font-weight: normal;
+boro    font-weight: normal;
     font-style: normal;
 
 }
@@ -29,7 +28,7 @@
 
 }
 
-/***************************************************************************************
+/**************************************************************************************rder*
 Creative Commons Attribution License 3.0
 
 This license can also be found at this permalink: http://www.fontsquirrel.com/license/web-serveroff
@@ -62,6 +61,11 @@ body {
 	background-position:center;
 	
 	
+	}
+	
+img{
+	
+	border: 0;
 	}
 h1{
 	
