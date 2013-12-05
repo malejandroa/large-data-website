@@ -111,13 +111,15 @@ p{
 	
 .religions{
 	color: #333;
-	font-size:1.3em;
-	padding:2em;
+	font-size:1.2em;
+	padding:1em;
 	font-family: 'Signika Negative';
 	font-weight: 200; 
 	font-style: normal;
 	margin-top:1em;
-	
+	text-align:justify;	
+	text-justify: tibetan  ;
+	yext-align-left:justify;
 	}
 .content{
 	max-width: 1200px;
@@ -144,7 +146,7 @@ p{
 .picture{                /* index main picture*/
 	
 		
-	height:12em;
+	height:18em;
 	background-repeat:no-repeat;
 	border: 0px #666666 solid;
 	background-size: cover;/*for when the image in the div doesnt work resposively*/
@@ -168,7 +170,7 @@ p{
 
 
 .picture-home {
-	background-image: url(../img/image_home.jpg);/*to change the image in each page*/
+	background-image: url(../img/home_image.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 			
@@ -178,12 +180,12 @@ p{
 }
 
 .picture-paths{
-	background-image: url(../img/zen__5.jpg);/*to change the image in each page*/
+	background-image: url(../img/paths_image.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 	
 .picture-further_studies{
-	background-image: url(../img/zen__4.jpg);/*to change the image in each page*/
+	background-image: url(../img/further_studies_image.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 	
