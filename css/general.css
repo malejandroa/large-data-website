@@ -89,8 +89,9 @@ h2{
 h3{ 
 	color: #09C  ;
 	font-family: 'Signika Negative';
-	font-weight: 500; 
+	font-weight: 200; 
 	font-style:  italic;
+	font-size:1.5em;
 	
 	}
 	
@@ -101,17 +102,22 @@ h4{
 	font-weight: 200; 
 	font-style: normal;
 	}
+	
+
 
 p{
 	margin-top:0;
     margin-bottom:0;
-	paddig:10em;
+	padding:1em;
 	}
+
 
 .paths{
 	padding-left:2em;
 	padding-right:2em;
 	}
+	
+	
 	
 .religions{
 	color: #333;
@@ -125,6 +131,9 @@ p{
 	text-justify: tibetan  ;
 	yext-align-left:justify;
 	}
+	
+.rel2{margin-top:5em;}
+.p2{margin-top:0.4em;}
 .content{
 	max-width: 1200px;
 	margin: 0 auto;
@@ -179,7 +188,7 @@ p{
 }
 			
 .picture-about {
-	background-image: url(../img/about_image.jpg);/*to change the image in each page*/
+	background-image: url(../img/shaolin.jpg);/*to change the image in each page*/
 	box-shadow: 2px 2px 2px #888888;
 }
 
@@ -237,9 +246,9 @@ a:hover{
 .home_img{
 		width:100%;
 		border: 1px #CCCCCC  thin;
-		
-		}
 	
+		}
+
 footer{
 	height:3em;
 	max-width:1200px;
@@ -249,7 +258,7 @@ footer{
 	padding-right:1em;
 	padding-top:.3em;
 	padding-bottom:.3em;
-	font-family: 'WebServeroffRegular';
+	font-family: 'WebServeroffItalic';
 	color:#333;
 	margin-top:2em;
 	border-top:1px dotted #0099CC; 
@@ -267,6 +276,9 @@ footer{
 	font-family:'WebServeroffItalic'
 	
 	}
+	.title2{
+		
+		margin-top:200px;}
 	
 	/***************************************************************************************
 			Skiplinks
